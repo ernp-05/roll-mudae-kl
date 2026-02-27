@@ -1,9 +1,9 @@
 import os
 import time
 import requests
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 TOKEN = os.getenv('TOKEN')
 USER_ID = os.getenv('USER_ID')
