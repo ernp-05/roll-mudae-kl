@@ -79,7 +79,7 @@ def main():
                 time.sleep(3)
         message_cycles += 1
         print(f"🔄 Ciclo {message_cycles} completado - Tiempo activo: {format_uptime()}")
-        time.sleep(65)
+        time.sleep(32)
 
 if __name__ == "__main__":
     main()
