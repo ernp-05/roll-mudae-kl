@@ -76,7 +76,7 @@ def main():
         for channel in channel_ids:
             for msg in messages:
                 send_message(args.token, channel, msg)
-            time.sleep(2)
+            time.sleep(4)
         message_cycles += 1
         print(f"🔄 Ciclo {message_cycles} completado - Tiempo activo: {format_uptime()}")
         time.sleep(65)
