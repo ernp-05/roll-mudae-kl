@@ -23,10 +23,11 @@ def main():
     channel_ids = [channel.strip() for channel in args.channels.split(',')]
     
     messages = [
-        f"$givescrap @<{args.userid}> 6000000",
+        f"$givescrap <@{args.userid}> 6000000",
         "y",
         "$kl 12000",
-        "Y"
+        "Y",
+        "$arlp"
     ]
     
     while True:
